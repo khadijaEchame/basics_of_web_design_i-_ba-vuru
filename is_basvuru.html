@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>İş Başvuru</title>
+        <style>
+            body{
+              background-color:rgb(46, 32, 85);
+            }
+            div.back_ground{
+                background-color:white;    
+                text-align: center;
+                margin-left: 2%;
+                margin-right: 2%;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="back_ground">
+            <br>
+            <h2 style="margin-right: 60%;">İŞ BAŞVURUİ FORMU</h2>
+            <hr>
+            <form action="" method="get" align="justify">
+                <h4>Kişisel Bilgiler</h4>
+             Ad  :   <input type="text" name="ad"><br><br>
+             SoAd  :  <input type="text" name="soad"><br><br>
+             Adres  :   <input type="text" name="Adres"><br><br>
+             E_Posta  : <input type="email" name="email"><br><br>
+             Cep Telefon Numarası  : <input type="tel" name="telefon"><br><br>
+             Cinsiyeti  : <input type="radio" name="cinsiyet" value="erkek">Erkek   <input type="radio" name="cinsiyet" value="kadin">Kadin<br><br>
+             Doğum Yeri  : <input type="text" name="Dogum Yeri"><br><br>
+             Doğum Tarihi  : <input type="date" name="Dogum Tarihi"><br><br>
+             Medeni Durumu  : <input type="radio" name="medeni durum" value="bekar">Bekar  <input type="radio" name="medeni durum" value="evli">Evli  <input type="radio" name="medeni durum" value="bosanmis">Boşanmış<br><br>    
+             Ehliyet  : <input type="radio" name="Ehliyet" value="var">Var  <input type="radio" name="Ehliyet" value="yok">Yok<br><br>
+             <hr>  
+             <h4>Eğitim Bilgileri</h4>
+             En Son Mezun Olduğunuz Okul<br><br>
+             Okulun Adı  : <input type="text" name="okul"><br><br>
+             Bölümü  : <input type="text" name="bolum"><br><br>
+            <hr>
+            <h4>İş Deneyimleri</h4>
+            Şirketin Adı  : <input type="text" name="sirket"><br><br>
+            Pozisyon  : <input type="text" name="pozisyon"><br><br>
+            <hr>
+            <h4>Yabancı Dil Bilgileri</h4>
+            Yabancı Dil  : <input type="text" name="dil"><br><br>
+            Düzey  : 
+            <select name="dil">
+                <option value="1">çok iyi</option>
+                <option value="2">iyi</option>
+                <option value="3">orta</option>
+                <option value="4">başlangıç</option>
+            </select>
+            <hr>
+            <h4>Hobiler</h4> 
+            <input type="checkbox" name="hobilerimiz[]" value="motosiklet">motosiklet kullanmak<br>
+            <input type="checkbox" name="hobilerimiz[]" value="film">film izlemek<br>
+            <input type="checkbox" name="hobilerimiz[]" value="yuzme">yuzmek<br>
+            <input type="checkbox" name="hobilerimiz[]" value="kitap">kitap okumak<br>
+            <hr>
+            <input type="submit" value="Gönder"><br>
+             <br>
+            </form>
+        </div>
+    </body>
+</html>
