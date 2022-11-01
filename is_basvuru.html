@@ -22,30 +22,30 @@
             <hr>
             <form action="" method="get" align="justify">
                 <h4>Kişisel Bilgiler</h4>
-             Ad  :   <input type="text" name="ad"><br><br>
-             SoAd  :  <input type="text" name="soad"><br><br>
-             Adres  :   <input type="text" name="Adres"><br><br>
-             E_Posta  : <input type="email" name="email"><br><br>
-             Cep Telefon Numarası  : <input type="tel" name="telefon"><br><br>
-             Cinsiyeti  : <input type="radio" name="cinsiyet" value="erkek">Erkek   <input type="radio" name="cinsiyet" value="kadin">Kadin<br><br>
-             Doğum Yeri  : <input type="text" name="Dogum Yeri"><br><br>
-             Doğum Tarihi  : <input type="date" name="Dogum Tarihi"><br><br>
-             Medeni Durumu  : <input type="radio" name="medeni durum" value="bekar">Bekar  <input type="radio" name="medeni durum" value="evli">Evli  <input type="radio" name="medeni durum" value="bosanmis">Boşanmış<br><br>    
-             Ehliyet  : <input type="radio" name="Ehliyet" value="var">Var  <input type="radio" name="Ehliyet" value="yok">Yok<br><br>
+              <label for="ad">Ad</label> :   <input type="text" name="ad" id="ad"><br><br>
+             <label for="soad">SoAd</label>  :  <input type="text" name="soad" id="soad"><br><br>
+             <label for="adres">Adres</label>  :   <input type="text" name="adres" id="adres"><br><br>
+             <label for="email">E_Posta</label>  : <input type="email" name="email" id="email"><br><br>
+             <label for="telefon">Cep Telefon Numarası</label>  : <input type="tel" name="telefon" id="telefon"><br><br>
+             <label>Cinsiyeti</label>  : <input type="radio" name="cinsiyet" value="erkek" id="erkek"><label for="erkek">Erkek </label>  <input type="radio" name="cinsiyet" value="kadin" id="kadin"><label for="kadin">Kadin</label><br><br>
+             <label for="dogumY">Doğum Yeri</label>  : <input type="text" name="Dogum Yeri" id="dogumY"><br><br>
+             <label for="dogumT">Doğum Tarihi</label>  : <input type="date" name="Dogum Tarihi" id="dogumT"><br><br>
+             <label>Medeni Durumu </label> : <input type="radio" name="medeni durum" value="bekar" id="bekar"><label for="bekar">Bekar</label>  <input type="radio" name="medeni durum" value="evli" id="evli"> <label for="evli">Evli</label> <input type="radio" name="medeni durum" value="bosanmis" id="bosanmis"><label for="bosanmis">Boşanmış</label><br><br>    
+             <label>Ehliyet</label>  : <input type="radio" name="Ehliyet" value="var" id="var"><label for="var">Var </label> <input type="radio" name="Ehliyet" value="yok" id="yok"><label for="yok">Yok</label><br><br>
              <hr>  
              <h4>Eğitim Bilgileri</h4>
              En Son Mezun Olduğunuz Okul<br><br>
-             Okulun Adı  : <input type="text" name="okul"><br><br>
-             Bölümü  : <input type="text" name="bolum"><br><br>
+             <label for="okul">Okulun Adı</label>  : <input type="text" name="okul" id="okul"><br><br>
+             <label for="bolum">Bölümü</label>  : <input type="text" name="bolum" id="bolum"><br><br>
             <hr>
             <h4>İş Deneyimleri</h4>
-            Şirketin Adı  : <input type="text" name="sirket"><br><br>
-            Pozisyon  : <input type="text" name="pozisyon"><br><br>
+            <label for="sirket">Şirketin Adı</label>  : <input type="text" name="sirket" id="sirket"><br><br>
+            <label for="pozisyon">Pozisyon</label>  : <input type="text" name="pozisyon" id="pozisyon"><br><br>
             <hr>
             <h4>Yabancı Dil Bilgileri</h4>
-            Yabancı Dil  : <input type="text" name="dil"><br><br>
-            Düzey  : 
-            <select name="dil">
+            <label for="dil">Yabancı Dil</label>  : <input type="text" name="dil" id="dil"><br><br>
+            <label for="dild">Düzey</label>  : 
+            <select name="dil" id="dild">
                 <option value="1">çok iyi</option>
                 <option value="2">iyi</option>
                 <option value="3">orta</option>
@@ -53,10 +53,10 @@
             </select>
             <hr>
             <h4>Hobiler</h4> 
-            <input type="checkbox" name="hobilerimiz[]" value="motosiklet">motosiklet kullanmak<br>
-            <input type="checkbox" name="hobilerimiz[]" value="film">film izlemek<br>
-            <input type="checkbox" name="hobilerimiz[]" value="yuzme">yuzmek<br>
-            <input type="checkbox" name="hobilerimiz[]" value="kitap">kitap okumak<br>
+            <input type="checkbox" name="hobilerimiz[]" value="motosiklet" id="mo"><label for="mo">motosiklet kullanmak</label><br>
+            <input type="checkbox" name="hobilerimiz[]" value="film" id="fi"><label for="fi">film izlemek</label><br>
+            <input type="checkbox" name="hobilerimiz[]" value="yuzme" id="yu"><label for="yu">yuzmek</label><br>
+            <input type="checkbox" name="hobilerimiz[]" value="kitap" id="ki"><label for="ki">kitap okumak</label><br>
             <hr>
             <input type="submit" value="Gönder"><br>
              <br>
